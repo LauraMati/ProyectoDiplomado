@@ -1,0 +1,132 @@
+body{
+    font-family: 'Lato', sans-serif; /* FUENTE */
+    max-width: 900px; /* ANCHO MAX */
+    margin: 0 auto; /* MARGEN */
+    background: rgb(226, 226, 247);
+}
+
+nav{
+    width: 100%; /* ANCHO DE LA BARRA DE NAVEGACION */
+    height: 190px; /* ALTURA */
+    background: white; /* COLOR DE FONDO */
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block; /* MANERA DE UBICAR LOS ELEMENTOS */
+    transition: 0.8s all;
+    padding: 18px 20px; /* relleno o separacion de los elementos */
+}
+
+nav ul li:hover{ /* cuando estoy sobre un elemento suceda algo */
+    background: rgb(223, 169, 149);
+}
+
+.img-logo{
+    width: 170px;
+    padding: 13px;
+}
+
+nav ul{
+      
+    display: inline-flex; /* acomodar los elementos en la parte superior de lado */
+    position: relative;
+    top: -100px;
+}
+
+nav ul li a{
+    text-decoration: none; /* decoracion de texto ninguno */
+    color: blue; /* color de letra */
+}
+
+h2,figure, ul{
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* ESTILOS SECCION 1 */
+
+.seccion1{
+    background-color: rgb(140, 189, 166); /* color de fondo */
+}
+
+.video{ /* UBICAR LOS VIDEOS */
+    width: 50%;
+    padding: 20px;
+}   
+
+.texto{ /* UBICAR EL TEXTO O ARTICULOS */
+    width: 39%;
+    padding: 20px;
+    vertical-align: top;
+}
+
+article{
+    background-color: rgb(87, 170, 143);
+    padding: 30px;
+    margin-top: 20px;
+}
+
+article h2{
+    border-bottom: solid thin black ;
+}
+
+.texto, .video{ /* PARA QUE EL TEXTO QUEDE AL LADO DEL VIDEO */
+    display: inline-block;
+}
+
+.boton{
+    text-align: center; /* alinear el texto */
+    background-color: coral;
+    padding: 5px;
+}
+
+.boton a{
+    text-decoration: none;
+    color: white;
+}
+
+.boton:hover{
+    background: pink;
+}
+
+/* ARTICLES */
+
+section{
+    background-color: rgb(140, 189, 166); /* color de fondo */
+    padding: 15px;
+    text-align: center;
+
+}
+
+section h2{
+    border-bottom: solid thin black ;
+
+}
+
+.img-art{
+    max-width: 100%;
+}
+
+.cont-art{
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+}
+
+footer{
+    background-color: rgba(145, 139, 139, 0.808);
+    color: red;
+    line-height: 30px;
+    text-align: center;
+    padding: 45px;
+}
+
+footer div a{
+    text-decoration: none;
+    color: orangered;
+    text-align: left;
+}
